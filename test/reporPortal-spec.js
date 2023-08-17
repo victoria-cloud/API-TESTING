@@ -5,7 +5,7 @@ const randomstring = require("randomstring");
 
 const baseUrl = 'http://host.docker.internal:8080/api'
 const projectName = 'default_personal'
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIyNjQ5ODIsInVzZXJfbmFtZSI6ImRlZmF1bHQiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiZDc4MDljN2UtODRhMC00NmU4LWIyMGMtYjIxZjA0OGNjYTRmIiwiY2xpZW50X2lkIjoidWkiLCJzY29wZSI6WyJ1aSJdfQ.gdUCAdxDzJZ2UXSreo-bPaFm_JrW2g4kbThkXyWKKSA"
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIzNTQ4NjgsInVzZXJfbmFtZSI6ImRlZmF1bHQiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiMDc1MjgyMzEtZjcwOS00MGE4LTlmY2QtZTdkZjY0ZTA1MTRiIiwiY2xpZW50X2lkIjoidWkiLCJzY29wZSI6WyJ1aSJdfQ.PaVzZmW_EszQFZZhRSsvskk9brL8dQbtmAyeebJtMtk"
 
 const testObject = {
     description: '123',
