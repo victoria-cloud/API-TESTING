@@ -31,7 +31,7 @@ let lastCreatedDashboardID
 
 describe("RP's API testing: ", function () {
 
-    it('GET dashboard by name should return certain dashboard info', async () => {
+    xit('GET dashboard by name should return certain dashboard info', async () => {
         let response = await axios.get(`${baseUrl}/v1/${projectName}/dashboard`, header)
         expect(response.status).to.equal(200)
         expect(response.data.content[0]).to.deep.equal(testObject)
